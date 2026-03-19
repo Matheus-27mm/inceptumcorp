@@ -468,6 +468,47 @@
   }
   .cta-contact a { color: var(--gold); text-decoration: none; }
 
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 768px) {
+    nav { padding: 20px 24px !important; }
+    .nav-links { display: none !important; }
+    .nav-cta { padding: 8px 16px !important; font-size: 10px !important; }
+    .nav-logo { font-size: 16px !important; letter-spacing: 4px !important; }
+
+    .hero { padding: 100px 24px 60px !important; }
+    .hero-title { font-size: clamp(52px, 16vw, 80px) !important; letter-spacing: 4px !important; }
+    .hero-subtitle { font-size: 16px !important; }
+    .hero-desc { font-size: 16px !important; }
+    .hero-actions { flex-direction: column !important; gap: 16px !important; width: 100% !important; align-items: center !important; }
+    .btn-primary { width: 100% !important; text-align: center !important; padding: 16px 20px !important; }
+
+    section { padding: 70px 24px !important; }
+
+    .about { grid-template-columns: 1fr !important; gap: 50px !important; }
+    .about-visual { order: -1 !important; }
+    .about-ring { width: 220px !important; height: 220px !important; }
+    .about-ring::before { width: 170px !important; height: 170px !important; }
+    .about-ring::after { width: 130px !important; height: 130px !important; }
+    .about-i { font-size: 80px !important; }
+    .stat-right { right: -20px !important; }
+    .stat-left { left: -20px !important; }
+
+    .services-grid { grid-template-columns: 1fr !important; gap: 1px !important; }
+    .service-card { padding: 36px 28px !important; }
+
+    .process-step { grid-template-columns: 50px 1fr !important; gap: 20px !important; }
+    .step-num { font-size: 36px !important; }
+
+    .cta-section { padding: 80px 24px !important; }
+    .cta-title { font-size: clamp(32px, 10vw, 52px) !important; }
+    .cta-desc { font-size: 16px !important; }
+    .btn-primary { padding: 16px 28px !important; }
+
+    footer { padding: 28px 24px !important; flex-direction: column !important; gap: 12px !important; text-align: center !important; }
+
+    .section-title { font-size: clamp(28px, 8vw, 44px) !important; }
+  }
+
   /* FOOTER */
   footer {
     padding: 40px 60px;
